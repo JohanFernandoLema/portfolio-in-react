@@ -6,8 +6,10 @@ const Navbar = () => {
       <div>
         <img src={logo} alt="logo_icon" style={{ width: '50px' }} />
       </div>
+
+      {/* Menu */}
       <div>
-        <ul>
+        <ul className="flex">
           <li>Home</li>
           <li>About</li>
           <li>Skills</li>
@@ -15,6 +17,24 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
       </div>
+
+      {/* Hamburger */}
+
+      <div className="hidden">
+        <FaBars />
+      </div>
+
+      {/* Mobile menu */}
+      <ul className="hidden">
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
+
+      {/* Social Icons */}
+      <div className="hidden"></div>
     </div>
   )
 }
