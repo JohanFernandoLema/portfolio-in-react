@@ -8,11 +8,21 @@ const About = () => {
               About
             </p>
           </div>
-
-          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-            <div>
-              <p>Hi, I am Johan</p>
-            </div>
+          <div></div>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Hi, I am Johan</p>
+          </div>
+          <div>
+            <p>
+              I have a solid understanding when it comes to implement and
+              develop website projects. My wide experience obtained by creating
+              complex projects, assisting small businesses and keeping myself
+              with the latest concepts of the frameworks that I use sre very
+              helpful at the moment of delivering a maintainable and readable
+              code.
+            </p>
           </div>
         </div>
       </div>
