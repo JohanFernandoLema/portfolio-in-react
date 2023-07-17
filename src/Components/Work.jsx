@@ -1,14 +1,23 @@
+import RestaurantApp from '../Assets/restaurant.png'
 const Work = () => {
   return (
-    <div name="work" className="w-full bg-[#0a192f] text-gray-300">
+    <div name="work" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl">Work</p>
-          <p>Feel free to go through the projects that I have made</p>
+          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+            Work
+          </p>
+          <p className="py-6">
+            Feel free to go through the projects that I have made
+          </p>
         </div>
 
-        <div>
-          <div>
+        <div
+          style={{ backgroundImage: `url(${RestaurantApp})` }}
+          className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
+        >
+          <div className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+            {/* Hover Effects */}
             <div>
               <span></span>
               <div>
